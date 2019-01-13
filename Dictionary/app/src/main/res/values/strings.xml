@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+    <string name="hello">Hello World, DatumDroidOCRActivity!</string>
+    <string name="button_text">OCR!</string>
+    <string name="text_hint">OCRed Text will appear here</string>
+    <string name="error_prompt">Error!</string>
+    <string name="text">Text</string>
+</resources>
