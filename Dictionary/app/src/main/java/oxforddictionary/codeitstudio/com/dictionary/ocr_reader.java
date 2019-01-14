@@ -45,42 +45,7 @@ public class ocr_reader extends AppCompatActivity {
         cam = findViewById(R.id.camera);
         result = findViewById(R.id.Text);
         meaning = findViewById(R.id.definition);
-      //  bitmap = BitmapFactory.decodeResource(getApplicationContext().getResources(), R.drawable.ocr_sample);
-        //image.setImageBitmap(bitmap);
-//
-//
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                // Start.....
-//                TextRecognizer txtRecognizer = new TextRecognizer.Builder(getApplicationContext()).build();
-//                if (!txtRecognizer.isOperational()) {
-//                    result.setText(R.string.error_prompt);
-//                } else {
-//                    Frame frame = new Frame.Builder().setBitmap(bitmap).build();
-//                    SparseArray items = txtRecognizer.detect(frame);
-//                    StringBuilder strBuilder = new StringBuilder();
-//                    for (int i = 0; i < items.size(); i++) {
-//                        TextBlock item = (TextBlock) items.valueAt(i);
-//                        strBuilder.append(item.getValue());
-//                        strBuilder.append("/");
-//                        for (Text line : item.getComponents()) {
-//                            //extract scanned text lines here
-//                            Log.v("lines", line.getValue());
-//                            for (Text element : line.getComponents()) {
-//                                //extract scanned text words here
-//                                Log.v("element", element.getValue());
-//
-//                            }
-//                        }
-//                    }
-//                    result.setText(strBuilder.toString().substring(0, strBuilder.toString().length() - 1));
-//                }
-//
-//                //End.....
-//            }
-//
-//        });
+
         meaning.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
