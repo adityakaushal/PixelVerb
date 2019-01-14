@@ -19,8 +19,8 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class MyDictionaryRequest extends AsyncTask<String,Integer,String> {
 
-    final String app_id = "3d6f8014";
-    final String app_key ="6622a199384825c05bb5e1ffc1fc6c21";
+    final String app_id = "";
+    final String app_key ="";
 
 String myUrl;
 
